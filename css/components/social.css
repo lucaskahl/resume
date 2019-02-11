@@ -1,0 +1,26 @@
+.social-wrap {
+  width: 60vw;
+}
+
+.social-wrap > ul {
+  list-style: none;
+  display: flex;
+  flex-direction: column;
+  align-items: flex-end;
+}
+
+.social-wrap > ul::after {
+  content: "";
+  width: 1px;
+  height: 100px;
+  background-color: pink;
+}
+
+.social-wrap > ul > li {
+  display: block;
+  float: right;
+}
+
+.social-wrap > ul > li > img {
+  width: 25px;
+}

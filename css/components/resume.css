@@ -1,0 +1,13 @@
+.resume-wrap {
+  margin-left: 93px;
+  margin-top: 200px;
+  color: var(--main-color);
+}
+
+.resume-wrap > .title {
+  font-size: 40px;
+}
+
+.resume-wrap > .subtitle {
+  font-size: 15px;
+}

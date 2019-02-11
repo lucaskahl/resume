@@ -1,0 +1,8 @@
+.logo-wrap {
+  margin-left: 100px;
+  margin-top: 75px;
+}
+
+.logo-wrap > .logo {
+  width: 80px;
+}
