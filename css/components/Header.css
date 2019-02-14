@@ -1,0 +1,88 @@
+.header-section {
+  height: 100vh;
+  width: 100vw;
+  background-color: var(--color-grow);
+}
+
+.header-section > .logo {
+  width: 80px;
+  height: 80px;
+  margin-left: 50px;
+  margin-top: 20px;
+  cursor: pointer;
+}
+
+.header-section > .social {
+  position: absolute;
+  top: 20px;
+  right: 10vw;
+}
+
+.header-section > .social ul {
+  display: flex;
+  list-style: none;
+}
+
+.header-section > .social ul li {
+  margin-right: 10px;
+  cursor: pointer;
+}
+
+.header-section > .bg {
+  content: "";
+  float: right;
+  width: 60vw;
+  height: 100vh;
+  background-color: var(--color-white);
+  background-image: url(../../img/bg.png);
+}
+
+.header-section > .image {
+  background-image: url(../../img/pexels-photo.png);
+  width: 420px;
+  height: 590px;
+  position: absolute;
+  top: 10vh;
+  left: 20vw;
+}
+
+.header-section > .image .warning {
+  position: absolute;
+  top: 95%;
+  left: -90px;
+  font-family: "Raleway";
+  font-size: 16px;
+  color: var(--color-grow);
+  text-transform: uppercase;
+  cursor: pointer;
+}
+
+.header-section .content {
+  position: absolute;
+  left: 110%;
+  top: 120px;
+}
+
+.header-section .content h1 {
+  font-size: 80px;
+  text-transform: uppercase;
+  font-family: "Oswald";
+}
+
+.header-section .content h4 {
+  font-family: "Raleway";
+  font-size: 16px;
+  font-weight: normal;
+  line-height: 24px;
+  width: 60rem;
+  background-color: var(--color-white);
+}
+
+.header-section .content button {
+  font-family: "Raleway";
+  font-size: 16px;
+  color: var(--color-white);
+  text-transform: uppercase;
+  margin-top: 50px;
+  cursor: pointer;
+}
