@@ -5,47 +5,69 @@
     <meta name="viewport" content="width=device-width, initial-scale=1.0" />
     <meta http-equiv="X-UA-Compatible" content="ie=edge" />
     <link
-      href="https://fonts.googleapis.com/css?family=Oswald:200,300,400,500"
-      rel="stylesheet"
-    />
-    <link
-      href="https://fonts.googleapis.com/css?family=Raleway"
+      href="https://fonts.googleapis.com/css?family=Open+Sans:300,400,600,700"
       rel="stylesheet"
     />
     <link rel="stylesheet" href="./css/settings/styles.css" />
     <link rel="stylesheet" href="./css/generic/styles.css" />
     <link rel="stylesheet" href="./css/components/Header.css" />
+    <link rel="stylesheet" href="./css/components/About.css" />
     <link rel="stylesheet" href="./css/trumps/styles.css" />
     <title>Resume</title>
   </head>
   <body>
-    <header class="header-section">
-      <img class="logo" src="./img/logo.png" alt="Logo image" />
-      <nav class="social">
-        <ul>
-          <li class="icon">
-            <img src="./img/Twitter.png" alt="Twitter icon" />
+    <header id="inicio" class="header-section">
+      <nav>
+        <ul class="nav">
+          <li class="item"><a href="#inicio">Início</a></li>
+          <li class="item"><a href="#sobre">Sobre mim | Contato</a></li>
+          <li class="item">
+            <a href="#">Educação | Experiência | Habilidades</a>
           </li>
-          <li class="icon">
+          <li class="item"><a href="#">Portfolio</a></li>
+        </ul>
+      </nav>
+      <div class="content">
+        <h1 class="name">Lucas Kahl</h1>
+        <h3 class="description">Front End Developer</h3>
+        <ul class="social">
+          <li class="item">
             <img src="./img/Behance.png" alt="Behance icon" />
           </li>
-          <li class="icon">
+          <li class="item">
+            <img src="./img/Twitter.png" alt="Twitter icon" />
+          </li>
+          <li class="item">
             <img src="./img/Dribble.png" alt="Dribble icon" />
           </li>
         </ul>
-      </nav>
-      <div class="bg"></div>
-      <div class="image">
-        <button class="warning btn white">The design is a solution</button>
-        <div class="content">
-          <h1>Hello</h1>
-          <h4>
-            Hi, my name is Lucas, I’m a professional web designer. Ready to make
-            your product better - more interesting - the coolest.
-          </h4>
-          <button class="btn blue">Cooperation</button>
-        </div>
       </div>
     </header>
+    <section id="sobre" class="about-wrapper">
+      <div class="content">
+        <img src="./img/profilepic.jpg" />
+        <div class="text">
+          <h5 class="title">Sobre mim</h5>
+          <p>
+            Oi! Tudo bem? <br />
+            Tenho 19 anos, sou cristão e um amante da tecnologia, programação,
+            design e café. Desenvolvimento front-end com grande ênfase na
+            qualidade do código, arquiteturas de front-end, acessibilidade,
+            cross-browsing e desempenho de aplicativos. Que tal tomarmos uma
+            xícara de café enquanto conversamos sobre essa oportunidade?
+          </p>
+          <div class="row">
+            <div class="left">
+              <h5>Contato</h5>
+              <p>Lucas Kahl</p>
+              <p>lucaschangkahl@gmail.com</p>
+            </div>
+            <div class="button right">
+              <button class="btn white">Curriculo para download</button>
+            </div>
+          </div>
+        </div>
+      </div>
+    </section>
   </body>
 </html>

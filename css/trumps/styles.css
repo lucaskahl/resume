@@ -1,5 +1,6 @@
 .btn {
   padding: 20px 50px;
+  border-radius: 5px;
 }
 
 .blue {
@@ -8,4 +9,14 @@
 
 .white {
   background-color: #fff;
+}
+
+.left {
+  float: left;
+  width: 50%;
+}
+
+.right {
+  width: 50%;
+  float: right;
 }

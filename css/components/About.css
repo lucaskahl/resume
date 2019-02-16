@@ -1,0 +1,43 @@
+.about-wrapper {
+  background: linear-gradient(#0078ff, #000aff);
+  padding-top: 96px;
+  padding-bottom: 66px;
+}
+
+.about-wrapper > .content {
+  display: flex;
+  justify-content: space-around;
+  align-items: center;
+  max-width: 900px;
+  margin: 0 auto;
+}
+
+.about-wrapper > .content img {
+  border-radius: 50%;
+  width: 150px;
+  margin-bottom: 110px;
+}
+
+.about-wrapper > .content > .text {
+  max-width: 600px;
+}
+
+.about-wrapper > .content > .text h5 {
+  font-weight: 600;
+  font-size: 25px;
+  margin-bottom: 5px;
+}
+.about-wrapper > .content > .text p {
+  margin-bottom: 10px;
+  font-size: 15px;
+  word-spacing: 4px;
+}
+
+.button {
+  margin-top: 50px;
+}
+.button .btn {
+  font-size: 13px;
+  color: var(--color-grow);
+  text-transform: uppercase;
+}
